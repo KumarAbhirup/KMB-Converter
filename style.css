@@ -1,0 +1,45 @@
+﻿.whole_page{
+	display:block;
+	max-width:1200px;
+	width:98%;
+	text-align: center;
+	margin: 10px auto;
+	border:none;
+	font:14px arial;
+	color:red;
+	text-shadow:1px 0px 0px #000;
+}
+h2.title{}
+.form{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.form input[type=number]{
+	padding:15px;
+	border-radius:5px;
+	border:3px solid black;
+}
+.form input[type=submit]{
+	padding:13px;
+	border-radius:5px;
+	border:3px solid blue;
+	background:blue;
+	color:#fff;
+	cursor:pointer;
+}
+.form input[type=submit]:hover{
+	color:yellow;
+}
+
+/*results page*/
+.whole-page{
+	width:96%;
+	max-width:1000px;
+	margin:100px auto;
+	border:3px solid red;
+	text-align: center;
+	padding:5px;
+}
+.answer{
+	font: 17.5px sans-serif;
+}
